@@ -1,0 +1,336 @@
+body{
+    background-color: #0E1428;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* Estilos esenciales */
+
+a{
+    text-decoration: none;
+}
+.body{
+    background-color: #00000f
+}
+.body__videos{
+    background-color: #000;
+}
+.plantilla{
+    background-color:#FDFFFC ;
+    width: 75%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+.titular{
+    height:25rem;
+    transition: 0.3s;
+    box-shadow: 0px 0px 35px #5b2c6f;
+}
+.titular:hover{
+    width: 71%;
+    height:26rem;
+    background-color: #884ea0;
+    box-shadow: 0px 0px 35px #979a9a  ;
+}
+.titular__banner{
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/banner.jpg");
+    border-radius: 20px;
+}
+.sombra{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    transition: all;
+    transition: 0.5s;
+    display: flex;
+    direction: ltr;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+.sombra:hover{
+    background-color: #00000091;
+}
+.titular__title{
+    font-family: "titulo";
+    font-size: larger;
+    text-align: center;
+    padding: 2%;
+    margin: 0px;
+}
+.title{
+    font-family: "titulo";
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    margin: 0px;
+}
+.titular__img{
+    margin:0.5rem ;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20px;
+    border: solid #0E1428 1px;
+}
+
+
+/* Estilos de la barra de navegacion */ 
+
+
+.nav{
+    height:5.3rem;
+    box-shadow: 0px 0px 35px #5b2c6f;
+    transition: 0.5s;
+}
+.nav:hover{
+    box-shadow: 0px 0px 35px #979a9a;
+}
+.nav__item{
+    font-family: tahoma;
+    font-size: larger;
+    text-decoration: none;
+    color: #555;
+    display: inline-block;
+    margin: 0px 3%;
+    padding: 3%;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 7px;
+}
+.nav__item:hover{
+    color: #222;
+    background-color: #884ea0;
+    font-size: 1.5rem;
+    
+}
+
+
+/* Estilos de tarjeta */
+
+
+.tarjeta__conteiner{
+    display: flex;
+}
+.tarjeta{
+    width: 35%;
+    height:15rem;
+    display: inline-block;
+    transition: 0.7s;
+    box-shadow: 0px 0px 35px  #000;
+}
+.tarjeta:hover{
+    background-color: #d68910 ;
+    margin: auto;
+    width: 40%;
+    height:25%;
+    margin-top: 5%;
+    text-align: center;
+    display: inline-block;
+    box-shadow:0px 0px 35px #5b2c6f;
+}
+.tarjeta--vieja{
+    background-color: #E0C078;
+}
+.tarjeta--vieja:hover{
+    background-color: #d68a10cf ;
+}
+.tarjeta__title{
+    font-family: "titulo";
+    font-size: 2rem;
+    text-align: center;
+    padding: 2%;
+    transition: 0.7s ;
+}
+.tarjeta__title:hover{
+    font-size: 3rem;
+}
+.tarjeta__subtitle{
+    font-family: titulo;
+    font-size: 1.5rem;
+    transition: 0.7s;
+}
+.tarjeta__subtitle:hover{
+    font-size: 1.9rem;
+}
+.tarjeta__parrafo{
+    font-family: Tahoma;
+    font-size: 1rem;
+    transition: 1.5s;
+}
+.tarjeta__parrafo:hover{
+        font-size: 1.5rem;
+}
+
+
+/* Estilos de Tabla */
+
+
+.table{
+    max-width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.table__header,.table__register{
+    font-family: titulo;
+    width: 3rem;
+    height: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    color: #555;
+    transition: 0.3s;
+}
+.table__header:hover{
+    background-color: #5b2c6f;
+    color: #000;
+}
+
+.table__register{
+    padding: 0;
+}
+
+
+/* Estilos de footer */
+
+
+.footer{
+    margin-top: 20rem;
+    background-color: #C2B5A0;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content:center;
+    transition: 1s;
+}
+.footer:hover{
+    background-color: #fff;
+}
+.fotter__element{
+    font-family:titulo;
+    font-size: 1rem;
+    color: #000;
+    margin: 0.5rem;
+    text-decoration: none;
+    transition: 1s;
+}
+.fotter__element:hover{
+    font-size: 1.01rem;
+    margin: 0.55rem;
+}
+
+
+/* Estilos de cancion */
+
+
+.cancionero{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.cancion{
+    width: 55%;
+    height: 7.5rem;
+    display: flex;
+    flex-direction: row;
+}
+cancion__img{
+    content: cipote;
+}
+.cancionero__title{
+    margin-top: 2rem;
+    text-align: center;
+    transition: 0.7s;
+    box-shadow: 0px 0px 35px  #000;
+}
+
+
+/* Estilos de video */
+
+.section__video{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7rem;
+}
+.video{
+    display: flex;
+    flex-flow: column;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #000;
+    flex-wrap: nowrap;
+    min-width: 35%;
+    max-width: 75%;
+    margin: 2rem 5rem;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.7s;
+    align-items: center;
+}
+.video:hover{
+    min-width: 45%;
+    max-width: 90%;
+}
+.video:hover .video__descripcion{
+    font-size: larger;
+}
+.video__link{
+    width: 100%;
+    height: 100%;
+}
+.video__miniatura{
+    min-width: 50%;
+    min-width: 60%;
+}
+.video__miniatura:hover{
+    min-width: 60%;
+    max-width: 85%;
+
+}
+.video__img{
+    width: 100%;
+    height: 100%;
+    margin: 0rem 5rem 0rem 0rem;
+}
+
+.video__descripcion{
+    color: #eee;
+    font-size: 1rem;
+    max-width: 50%;
+    margin-left: 3rem;
+    transition: 0.7s;
+    font-size: medium;
+}
+.video__titulo{
+    text-align: center;
+    display: block;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+    transition: 1s;
+    font-size: large;
+}
+.video__titulo:hover{
+    color: #fff;
+    background-color: #e74c3c;
+    border-radius:20px;
+    font-size: larger;
+    font-family: "titulo";
+    font-size: larger;
+    text-align: center;
+    margin: 0px;
+}
+
+/* Proximamente mas */
